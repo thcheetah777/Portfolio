@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/HTML"
 @model Portfolio.Pages.HTMLModel
 @{
   ViewData["Title"] = "HTML";
@@ -10,24 +10,8 @@
   <br>
   <hr>
   <br>
-  <div class="projects" style="margin-top: 30px; position: ">
-    <div class="card" style="width: 350px; height: 350px;">
-      <a href="../Projects/Alien" style="color: black">
-        <img class="card-img-top" style="padding: 30px;" src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="Alien">
-        <div class="card-body">
-          <h5 class="card-title">Alien</h5>
-          <p class="card-text">A platformer game based on Adventure Island</p>
-        </div>
-      </a>
-    </div>
-    <div class="card" style="width: 350px; height: 350px;">
-      <a href="../Projects/3DTree" style="color: black">
-        <img class="card-img-top" style="padding: 30px;" src="https://static.turbosquid.com/Preview/001226/851/7I/low-poly-tree-3D-model_D.jpg" alt="Tree">
-        <div class="card-body">
-          <h5 class="card-title">3D Tree</h5>
-          <p class="card-text">A 3D Model of a tree</p>
-        </div>
-      </a>
-    </div>
+  <div class="projects" style="margin-top: 30px;">
+    <partial name="ProjectCards/_AlienPartial"/>
+    <partial name="ProjectCards/_3DTreePartial"/>
   </div>
 </div>

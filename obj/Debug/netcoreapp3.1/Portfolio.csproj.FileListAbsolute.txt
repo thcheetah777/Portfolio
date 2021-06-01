@@ -39,3 +39,6 @@ C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pa
 C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Projects\Cipher.cshtml.g.cs
 C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Languages\HTML.cshtml.g.cs
 C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Languages\CSharp.cshtml.g.cs
+C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\ProjectCards\_AlienPartial.cshtml.g.cs
+C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\ProjectCards\_3DTreePartial.cshtml.g.cs
+C:\Users\Leo Feng\Coding\C#\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\ProjectCards\_CipherPartial.cshtml.g.cs

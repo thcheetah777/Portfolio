@@ -5,35 +5,9 @@
 }
 
 <div class="text-center">
-  <h1 class="display-4">Welcome to <img style="width: 100px;" src="http://lh3.googleusercontent.com/proxy/Z8E-rWKQxx6yJmK-yua7zswI_dFcSooWkeZl_w4rbLmMaMTGEEqIxTgwfgh2HpZWGuRihXriy8W4oTPDbUkLY1Lr" alt="Cheetah">'s Portfolio!</h1>
+  <h1 class="display-4">Welcome to <img class="shadow-lg" style="width: 100px;" src="https://i.pinimg.com/originals/b4/f0/0d/b4f00d78c2e25dca58614febae1de9f8.gif" alt="Cheetah">'s Portfolio!</h1>
   <br>
-  <div class="projects" style="margin-top: 30px; position: ">
-    <div class="card" style="width: 350px; height: 350px;">
-      <a href="Projects/Alien" style="color: black">
-        <img class="card-img-top" style="padding: 30px;" src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="Alien">
-        <div class="card-body">
-          <h5 class="card-title">Alien</h5>
-          <p class="card-text">A platformer game based on Adventure Island</p>
-        </div>
-      </a>
-    </div>
-    <div class="card" style="width: 350px; height: 350px;">
-      <a href="Projects/Cipher" style="color: black">
-        <img class="card-img-top" style="padding: 30px; width: 200px;" src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-Disk.jpg" alt="Caesar Cipher">
-        <div class="card-body">
-          <h5 class="card-title">Caesar Cipher</h5>
-          <p class="card-text">A Caesar Cipher encoder and decoder</p>
-        </div>
-      </a>
-    </div>
-    <div class="card" style="width: 350px; height: 350px;">
-      <a href="Projects/3DTree" style="color: black">
-        <img class="card-img-top" style="padding: 30px;" src="https://static.turbosquid.com/Preview/001226/851/7I/low-poly-tree-3D-model_D.jpg" alt="Tree">
-        <div class="card-body">
-          <h5 class="card-title">3D Tree</h5>
-          <p class="card-text">A 3D Model of a tree</p>
-        </div>
-      </a>
-    </div>
-  </div>
+  <partial name="ProjectCards/_AlienPartial"/>
+  <partial name="ProjectCards/_3DTreePartial"/>
+  <partial name="ProjectCards/_CipherPartial"/>
 </div>
